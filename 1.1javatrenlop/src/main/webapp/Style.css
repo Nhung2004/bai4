@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.view {
+    display: block;
+    width: 100vw; /* Chiếm toàn bộ chiều rộng của cửa sổ xem */
+    height: 100vh; /* Chiếm toàn bộ chiều cao của cửa sổ xem */
+    overflow: hidden; /* Ẩn phần hình ảnh vượt ra ngoài kích thước phần tử chứa */
+}
+
+.view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh phủ đầy phần tử chứa mà không bị biến dạng */
+}
+
